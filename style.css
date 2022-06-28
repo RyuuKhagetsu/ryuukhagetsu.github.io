@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.atur-navbar {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.atur-about {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.icon-sosmed #icon-facebook {
+    transition: transform 0.5s, color 0.4s ease-out;
+    color: #45505B;
+}
+
+.icon-sosmed #icon-facebook:hover {
+    transform: scale(1.4);
+    color: #4267B2;
+}
+
+.icon-sosmed #icon-instagram {
+    transition: transform 0.5s, color 0.4s ease-out;
+    color: #45505B;
+}
+
+.icon-sosmed #icon-instagram:hover {
+    transform: scale(1.4);
+    color: #F77737;
+}
+
+.icon-sosmed #icon-linkedin {
+    transition: transform 0.5s, color 0.4s ease-out;
+    color: #45505B;
+}
+
+.icon-sosmed #icon-linkedin:hover {
+    transform: scale(1.4);
+    color: #0e76a8;
+}
+
+.icon-sosmed #icon-twitter {
+    transition: transform 0.5s, color 0.4s ease-out;
+    color: #45505B;
+}
+
+.icon-sosmed #icon-twitter:hover {
+    transform: scale(1.4);
+    color: #1DA1F2;
+}
+
+.atur-about h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #45505B;
+}
+
+.atur-about h6 {
+    font-family: 'Raleway', sans-serif;
+    color: #168C53;
+    font-weight: 600;
+}
+
+.atur-about p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.atur-portofolio h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #45505B;
+}
+
+.atur-portofolio .h3-hijau {
+    font-family: 'Open Sans', sans-serif;
+    color: #168C53;
+}
+
+.atur-portofolio a {
+    color: #45505B;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.atur-portofolio .geser-foto-1 {
+    margin-bottom: 0;
+}
+
+.atur-portofolio .geser-foto-2 {
+    margin-bottom: 50px;
+    margin-left: 5px;
+}
+
+.atur-portofolio .geser-foto-3 {
+    margin-right: 45%;
+}
+
+.atur-portofolio .geser-foto-7 {
+    margin-top: 15px;
+}
+
+.atur-portofolio .geser-foto-12 {
+    margin-right: 40%;
+}
+
+.atur-contact {
+    color: #45505B;
+}
+
+.atur-contact h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.atur-contact .h3-hijau {
+    font-family: 'Open Sans', sans-serif;
+    color: #168C53;
+}
+
+.atur-contact h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.footer-heart {
+    color: #FF4141;
+}
+
+/* * dark mode */
+
+.darkmode {
+    background: #02091C;
+    color: white;
+}
+
+.darkmode button {
+    background: white;
+}
