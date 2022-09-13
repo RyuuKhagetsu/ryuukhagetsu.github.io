@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;500&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     scroll-behavior: smooth;
   }
+
+
+nav {
+    background: white;
+}
 
 .atur-navbar {
     font-family: 'Raleway', sans-serif;
@@ -97,7 +107,7 @@ html {
 
 .atur-portofolio .geser-foto-2 {
     margin-bottom: 50px;
-    margin-left: 5px;
+    margin-left: 0px;
 }
 
 .atur-portofolio .geser-foto-3 {
@@ -139,9 +149,52 @@ html {
 
 .darkmode {
     background: #02091C;
+}
+
+.darkmode h1 {
     color: white;
 }
 
-.darkmode button {
-    background: white;
+.darkmode p {
+    color: white;
+}
+
+.darkmode hr {
+    color: white;
+}
+
+.darkmode .icon-sosmed #icon-instagram {
+    transition: transform 0.5s, color 0.4s ease-out;
+    color: white;
+}
+
+.darkmode .icon-sosmed #icon-facebook {
+    transition: transform 0.5s, color 0.4s ease-out;
+    color: white;
+}
+
+.darkmode .icon-sosmed #icon-twitter {
+    transition: transform 0.5s, color 0.4s ease-out;
+    color: white;
+}
+
+.darkmode .icon-sosmed #icon-linkedin {
+    transition: transform 0.5s, color 0.4s ease-out;
+    color: white;
+}
+
+.darkmode h3 {
+    color: white;
+}
+
+.darkmode .text-loadmore {
+    color: white;
+}
+
+.darkmode nav {
+    background: #02091C;
+}
+
+.darkmode a {
+    color: white;
 }
