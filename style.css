@@ -143,6 +143,11 @@ nav {
 
 .footer-heart {
     color: #FF4141;
+    transition: transform 0.5s, color 0.4s ease-out;
+}
+
+.footer-heart:hover {
+    color: crimson;
 }
 
 /* * dark mode */
@@ -195,6 +200,34 @@ nav {
     background: #02091C;
 }
 
+.darkmode ul > li > *:hover {
+    color: #168C53;
+}
+
 .darkmode a {
     color: white;
+}
+
+.darkmode .teks-darkmode-h6 {
+    color: white;
+}
+
+.darkmode .icon-sosmed #icon-facebook:hover {
+    transform: scale(1.4);
+    color: #4267B2;
+}
+
+.darkmode .icon-sosmed #icon-instagram:hover {
+    transform: scale(1.4);
+    color: #F77737;
+}
+
+.darkmode .icon-sosmed #icon-linkedin:hover {
+    transform: scale(1.4);
+    color: #0e76a8;
+}
+
+.darkmode .icon-sosmed #icon-twitter:hover {
+    transform: scale(1.4);
+    color: #1DA1F2;
 }
