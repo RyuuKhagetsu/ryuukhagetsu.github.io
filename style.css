@@ -8,11 +8,20 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 
 nav {
     background: white;
+}
+
+
+.navbar-toggler {
+    border-color:#abe0c6;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(22, 140, 83, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 
 .atur-navbar {
@@ -200,13 +209,22 @@ nav {
     background: #02091C;
 }
 
-.darkmode ul > li > *:hover {
+.darkmode ul>li>a {
+    color: white;
+}
+
+.darkmode ul>li>a:hover {
     color: #168C53;
 }
 
-.darkmode a {
-    color: white;
+.darkmode ul>li>a:active {
+    color: #157e4b;
 }
+
+.darkmode ul>li>a:focus {
+    color: #157e4b;
+}
+
 
 .darkmode .teks-darkmode-h6 {
     color: white;
@@ -230,4 +248,13 @@ nav {
 .darkmode .icon-sosmed #icon-twitter:hover {
     transform: scale(1.4);
     color: #1DA1F2;
+}
+
+.darkmode .navbar-toggler {
+    border-color: #05133a;
+}
+
+
+.darkmode .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(22, 140, 83, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
